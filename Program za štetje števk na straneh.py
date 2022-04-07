@@ -1,9 +1,4 @@
 
-
-from msilib.schema import _Validation_records
-from re import T
-
-
 def števke(strani):
     rezultat=0
     for i in range(1, strani):
