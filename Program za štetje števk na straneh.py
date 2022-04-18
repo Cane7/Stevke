@@ -1,16 +1,17 @@
 
 def števke(strani):
     rezultat=0
-    for i in range(1, strani):
+    for i in range(1, strani + 1):
         a = len(str(i))
-        rezultat =+ a
+        rezultat += a
     print(rezultat)
 
 
 def meni():
     print('Dobrodošli!')
     print('Vpišite število strani prosim.')
-    vnos = print(input('Strani: '))
-    števke(str(vnos))
+    vnos = int(input('Strani: '))
+    števke(vnos)
 
-meni()
+while True:
+    meni()
